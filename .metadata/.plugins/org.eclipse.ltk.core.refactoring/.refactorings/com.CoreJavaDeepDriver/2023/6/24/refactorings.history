@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="false" comment="Delete element from project &apos;com.CoreJavaDeepDriver&apos;&#x0D;&#x0A;- Original project: &apos;com.CoreJavaDeepDriver&apos;&#x0D;&#x0A;- Original element: &apos;StreamApi.Employee1.setSalary(...)&apos;" description="Delete element" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;StreamApi{Employee.java[Employee1~setSalary~QInteger;" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1686547219233" subPackages="false" version="1.0"/>
+</session>

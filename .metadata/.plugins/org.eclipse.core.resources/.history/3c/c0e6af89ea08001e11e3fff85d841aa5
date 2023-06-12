@@ -1,0 +1,32 @@
+package com.controlstmandarray;
+import java.util.*;
+public class MissingElement {
+		public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter the size of the array: ");
+		int size = scanner.nextInt();
+
+		int[] arr = new int[size - 1];
+		System.out.print("Enter the elements of the array: ");
+		for (int i = 0; i < size - 1; i++) {
+		arr[i] = scanner.nextInt();
+		}
+
+		// Calculate the sum of numbers from 1 to N
+		int sum = (size * (size + 1)) / 2;
+
+		// Subtract each element in the array from the sum
+		for (int i = 0; i < size - 1; i++) {
+		sum -= arr[i];
+		}
+
+		// The remaining sum is the missing element
+		int missingElement = sum;
+
+		// Print the missing element
+		System.out.println("Missing element: " + missingElement);
+
+		scanner.close();
+		}
+		}
